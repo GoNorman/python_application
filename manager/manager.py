@@ -38,4 +38,6 @@ class Manager:
             "speed" : resource.speed
 
         }
+        print(json.dumps(json_x))
+        return json.dumps(json_x)
 
